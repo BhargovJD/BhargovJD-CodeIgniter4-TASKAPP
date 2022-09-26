@@ -8,4 +8,9 @@ class Home extends BaseController
     {
         return view('Home/index.php');
     }
+
+    public function about()
+    {
+        echo "About";
+    }
 }
